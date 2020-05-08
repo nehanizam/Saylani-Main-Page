@@ -1,0 +1,677 @@
+@font-face{
+    font-family: 'Merriweather';
+    src: url('Merriweather-Bold.ttf')
+}
+#header{
+    background-color: #316DC3;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 8px;
+   
+}
+.one,.two,.three{
+    margin-top: 20px;
+}
+#fb{ 
+    padding-left: 10px; 
+    margin-left: 20px;
+}    
+#twit{
+    padding-left: 20px;
+}
+#insta{
+    padding-left: 20px;
+}
+#you{
+    padding-left: 20px;
+}
+#what{
+    padding-left: 20px;
+}
+.two{
+    text-align: center;
+}
+.label1{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.label2{
+    margin-left: 10px;
+    padding: 5px 10px 5px 2px;
+    background-color: white;
+    color: rgb(82, 104, 38);
+    border-color: rgb(82, 104, 38);
+    font-size: small;
+}
+.label3{
+    margin-left: 3px;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    color: rgb(82, 104, 38);
+    border-color: rgb(82, 104, 38);
+    font-size: small;
+}
+.label4{
+    margin-left: 3px;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    color: rgb(82, 104, 38);
+    border-color: rgb(82, 104, 38);
+    font-size: small;
+
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.four,.five{
+    background-color: #f7f8fa; 
+    margin-top: 20px;
+}
+
+.four{
+    flex: 2;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.five{
+    flex: 8;
+    margin-bottom: 20px;
+    
+}
+
+
+#home{
+    color: white;
+    background-color: rgb(38, 83, 216);
+    padding: 10px 20px 10px 20px;
+    margin-left: 210px;
+    border-radius: 20px 20px 20px 20px;
+}
+#about{
+    color: black;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+#ss{
+    color: black;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+#fp{
+    color: black;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+#media{
+    color: black;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+#news{
+    color: black;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+#donation{
+    color: black;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+#about:hover{
+    background-color: rgb(38, 83, 216);
+}
+#ss:hover{
+   background-color: rgb(38, 83, 216);
+}
+#fp:hover{
+    background-color: rgb(38, 83, 216);
+}
+#media:hover{
+    background-color: rgb(38, 83, 216);
+}
+#news:hover{
+    background-color: rgb(38, 83, 216);
+}
+#donation:hover{
+    background-color: rgb(38, 83, 216);
+}
+.same{
+    font-size: 14px;
+    color: #333333;
+    font-family: sans-serif;
+}
+
+#logo{
+    margin-left: 50px;
+}
+
+
+#div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#index{
+    width:1365px;
+    height:380px;
+}
+@media only screen and (max-width: 1290px){
+    #index{
+       width: 1250px;
+       margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    #index{
+       width: 1150px;
+       margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 990px){
+    #index{
+       width: 900px;
+       margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 884px){
+    #index{
+       width: 600px;
+       margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 576px){
+    #index{
+       width: 500px;
+       margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 470px){
+    #index{
+       width: 400px;
+       margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 376px){
+    #index{
+       width: 350px;
+       margin-top: 20px;
+    }
+}
+
+
+#div2{
+    background-color: #f7f8fa; 
+}
+.seven{
+    margin-top: 40px;
+}
+.eight{
+    margin-top: 10px;
+}
+#intro{
+    color: rgb(38, 83, 216);
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: Merriweather;
+}
+#head{
+    color: rgb(28, 119, 28);
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: Merriweather;
+}
+.nine,.ten,.elev,.twel{
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 210px 0px 210px;
+}
+.twel{
+    padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 1100px){
+    .nine,.ten,.elev,.twel{
+        margin: 0px 20px 0px 20px ;
+    }
+}
+
+.thir,.fort,.fiff,.sixt{
+    
+    padding-top: 20px;
+    padding-bottom: 20PX;
+    background-color: rgb(38, 83, 216);
+    
+}
+#div4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.thir{
+    flex: 3;
+}
+.fort{
+    flex: 3;
+}
+.fiff{
+    flex: 3;
+}
+.sixt{
+    flex: 3;
+}
+
+#ic1,#ic2,#ic3,#ic4{
+    padding-top: 50px;
+}
+
+span{
+    color: lime ;
+    font-family: Merriweather;
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+}
+#name{
+    color: white;
+    font-family: Merriweather;
+    font-size: 14px;
+    margin: 10px 0px 10px;
+}
+#label{
+    color: white;
+    font-family: Merriweather;
+    font-size: 50px;
+}
+@media only screen and (max-width: 776px){
+    #div4{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#div5,#div6,#div7{
+    background-color: #f7f8fa  ;
+}
+.sevt{
+    padding-top: 40px;
+}
+.eigt{
+    margin-top: 10px;
+}
+.os,.wel,.med,.das,.rop,.edu{
+    margin-top: 10px;
+    padding-top: 10px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    box-sizing: border-box;
+}
+#div6,#div7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#div7{
+    padding-bottom: 50px;
+}
+.os{
+    flex: 4;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.wel{
+    flex: 4;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.med{
+    flex: 4;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    padding: 30px;
+}
+.das{
+    flex: 4;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.rop{
+    flex: 4;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.edu{
+    flex: 4;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    padding: 30px;
+}
+#capt{
+    color:rgb(38, 83, 216);
+    font-size: 18px;
+    font-family: Merriweather;
+}
+@media only screen and (max-width: 766px){
+    #div6,#div7{
+        display: flex;
+        flex-direction: column;
+    }
+    .das{
+        margin: 20px 50px 0px 50px;
+    }
+    .rop{
+        margin: 20px 50px 0px 50px;
+    }
+    .edu{
+        margin: 20px 50px 0px 50px;
+    }
+    .os{
+        margin: 20px 50px 0px 50px;
+    }
+    .wel{
+        margin: 20px 50px 0px 50px;
+    }
+    .med{
+        margin: 20px 50px 0px 50px;
+    }
+}
+
+#div8{
+    margin-top: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+.mp{
+    flex: 7;
+    margin-left: 100px;
+    color: rgb(38, 83, 216);
+}
+.up{
+    flex: 5;
+    margin-right: 160px;
+    color: rgb(38, 83, 216);
+    float: inline-end;
+    
+}
+
+.up p,#lines{
+    padding-left: 100px;
+}
+.up,.mp p{
+    font-family: Merriweather;
+    font-size: 24px;
+}
+
+
+#div9,#div10{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top: 30px;
+}
+#div10{
+    padding-bottom: 50px;
+}
+.hep{
+    flex: 4;
+    margin-left: 90px;
+    margin-right: 30px;
+    background-color: #f7f8fa;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+}
+.hos{
+    flex: 4;
+    margin-right: 570px;
+    background-color: #f7f8fa;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+}
+
+.itl{
+    flex: 4;
+    margin-left: 90px;
+    margin-right: 30px;
+    margin-top: 10px;
+    background-color: #f7f8fa;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+}
+.tha{
+    flex: 4;
+    margin-right: 570px;
+    margin-top: 10px;
+    background-color: #f7f8fa;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+}
+label{
+    display: inline;
+    color: rgb(38, 83, 216);
+    font-family: Merriweather;
+    font-size: 15px;
+    line-height: 1.42857143;
+    margin: 10px 0px 10px 15px;
+}
+
+@media only screen and (max-width: 1200px){
+    #div9,#div10{
+        display: flex;
+        flex-direction: column;
+    }
+    .hep,.hos{
+        margin: 10px 20px 10px 20px;
+    }
+    .itl,.tha{
+        margin: 0px 20px 10px 20px ;
+    }
+}
+#div11{
+    margin-top: 60px;
+}
+#div12{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 180px;
+}
+.p1,.p2,.p3,.p4,.p5{
+    margin-left: 2px;
+    flex: 4;
+}
+.p1{
+    margin-left: 90px;
+}
+.p5{
+    margin-right: 90px;
+}
+@media only screen and (max-width: 1300px){
+    #div12{
+        display: flex;
+        flex-direction: row;
+    }
+    #id{
+        width: 115px;
+        height: 150px;
+    }
+}
+@media only screen and (max-width: 684px){
+    #div12{
+        display: flex;
+        flex-direction: column;
+    }
+    #id{
+        width: 140px;
+        height: 150px;
+    } 
+    .p1,.p2,.p3,.p4,.p5{
+        margin-left: 250px;
+    }
+}
+@media only screen and (max-width: 422px){
+    #div12{
+        display: flex;
+        flex-direction: column;
+    }
+    #id{
+        width: 125px;
+        height: 150px;
+    } 
+    .p1,.p2,.p3,.p4,.p5{
+        margin-left: 150px;
+    }
+}
+@media only screen and (max-width: 360px){
+    #div12{
+        display: flex;
+        flex-direction: column;
+    }
+    #id{
+        width: 120px;
+        height: 150px;
+    } 
+    .p1,.p2,.p3,.p4,.p5{
+        margin-left: 110px;
+    }
+}
+
+#div13{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(37, 39, 46);
+    padding: 40px 10px 40px 10px;
+    justify-content: space-around;
+}
+.pt1{
+    flex: 6;
+    padding: 10px 10px 30px 10px
+}
+#icoon{
+    margin-left: 60px;
+}
+#add{
+    color: #bbb;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 70px;
+}
+#call,#msg,#map{
+    margin-left: 70px;
+}
+
+.no{
+    color: #bbb;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.pt2,.pt3{
+    flex: 4;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+#us{
+    color: #fff;
+    font-size: 14px;
+    font-family: Merriweather;
+    font-weight: bold;
+}
+#ul{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+ul{
+    list-style: none;
+    margin: 3px;
+}
+li{
+    display: inline;
+    position: relative;
+    right: 25px;
+}
+
+@media only screen and (max-width: 1073px){
+    #div13{
+        display: flex;
+        flex-direction: row;
+    }
+       
+    .pt2,.pt3{
+        margin: 30px 0px 0px 0px;
+    }
+}
+@media only screen and (max-width: 1008px){
+    #div13{
+        display: flex;
+        flex-direction: column;
+    }
+    #icoon{
+        margin-left: 0px;
+    }
+    #add,#call,#msg,#map{
+        margin-left: 10px;
+    }
+    .pt2,.pt3{
+        margin-top: 5px;
+    }
+}
+#footer{
+    background-color: #316DC3;
+    padding: 10px;
+}
+.foot{
+    color: white;
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-left: 90px;
+}
+@media only screen and (max-width: 1008px){
+    .foot{
+        margin-left: 25px;
+    }
+}
+#btt{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
